@@ -87,7 +87,7 @@ public class GameActivity extends Activity {
         mSession = new ApplicationSession(castContext, selectedDevice);
         mSession.setListener(mSessionListener);
         try {
-            mSession.startSession("TicTacToe");
+            mSession.startSession("dc37b93d-3231-43f1-b7e4-69e1a3ddf45a");
         } catch (IOException e) {
             Log.e(TAG, "Failed to open a session", e);
         }
